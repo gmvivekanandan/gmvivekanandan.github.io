@@ -1,0 +1,21 @@
+body{
+    font-family: 'Ubuntu',sans-serif;
+}
+
+.btn{
+    border-radius: 4rem !important;
+}
+
+#landing{
+    height: 100vh;
+    background-image: url('images/Astronaut-Wallpaper-69-1920x1080.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    z-index: -1;
+}
+
+.sidenav{
+    height: -webkit-fill-available !important;
+}
