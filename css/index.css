@@ -8,7 +8,7 @@ body{
 
 #landing{
     height: 100vh;
-    background-image: url('images/Astronaut-Wallpaper-69-1920x1080.jpg');
+    background-image: url('../images/Astronaut-Wallpaper-69-1920x1080.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
