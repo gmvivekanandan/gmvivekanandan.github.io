@@ -19,3 +19,7 @@ body{
 .sidenav{
     height: -webkit-fill-available !important;
 }
+
+.video-container{
+    padding-bottom: 200% !important;
+}
