@@ -2,7 +2,7 @@
 title: DICE CTF@HOPE 2022
 author: Cerberus ™
 date: 2022-07-26
-categories: [DICE CTF@HOPE 2022, writeups]
+categories: [writeups, DICE CTF@HOPE 2022]
 tags: [git, python]
 ---
 
