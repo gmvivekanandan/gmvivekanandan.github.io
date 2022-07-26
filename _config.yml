@@ -23,7 +23,7 @@ timezone:
 
 title: Cerberus                          # the main title
 
-tagline: Infosec   # it will display as the sub-title
+tagline: Welcome to my blog.   # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
   A minimal, responsive, and powerful Jekyll theme for presenting professional writing.
