@@ -188,7 +188,7 @@ print(base64_encode(serialize($page)))
 
 After updating the cookie and refreshing the page, we are presented with the contents of *access.log* file.
 
-![Contents of /var/log/nginx/access.log](../assets/img/toxic/toxic.png) 
+![Contents of /var/log/nginx/access.log](/assets/img/toxic/toxic.png) 
 _Contents of /var/log/nginx/access.log_
 
 ### The Final Steps
@@ -204,7 +204,7 @@ We could see the user agent being inserted in the log, which is something an use
 <?php system('ls -l /');?>
 ```
 
-![Contents of /var/log/nginx/access.log with contents of / folder](../assets/img/toxic/toxic1.png) 
+![Contents of /var/log/nginx/access.log with contents of / folder](/assets/img/toxic/toxic1.png) 
 _Contents of /var/log/nginx/access.log with contents of / folder_
 
 Now since we have the flag folder we could insert another PHP payload in the user-agent header and read the flag.
@@ -213,7 +213,7 @@ Now since we have the flag folder we could insert another PHP payload in the use
 <?php system('cat /flag_H3zzM');?>
 ```
 
-![Contents of /var/log/nginx/access.log with flag](../assets/img/toxic/toxic2.png) 
+![Contents of /var/log/nginx/access.log with flag](/assets/img/toxic/toxic2.png) 
 _Contents of /var/log/nginx/access.log with flag_
 
 **Flag: HTB{P0i5on_1n_Cyb3r_W4rF4R3?!}**
